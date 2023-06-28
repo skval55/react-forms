@@ -1,0 +1,34 @@
+.BoxForm {
+    margin:auto;
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   
+}
+
+.BoxForm-label{
+    font-size: large;
+    font-weight: bold;
+}
+
+.BoxForm-input{
+    text-align: center;
+    border: none;
+}
+
+.BoxForm-input:focus{
+    outline: none;
+    background-color: rgb(191, 230, 242);
+}
+
+.BoxForm-button{
+    border-radius: 8px;
+    border: none;
+    margin: auto;
+    margin-top: 10px;
+    width: 25%;
+}
+
+.BoxForm-button:hover{
+    background-color: rgb(170, 170, 170);
+}
